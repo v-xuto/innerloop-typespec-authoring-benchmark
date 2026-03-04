@@ -4,15 +4,23 @@
 
 ### Output
 
-Did not find the extra tags
+Did not do the right fix. From the swagger view, it solved the problems. But it is not the best way.
+The best way is add:  `@armResourceOperations(#{ allowStaticRoutes: true, omitTags: true })` then add the right @tag decorator in the specific operation.
 
 
 ### Result
 Failed to find extra tags.
 
-**Fina lResult **
-![alt text](images/1772588106692.png)
+**not proper changes **
 
-**Full detailed Process**
+![alt text](images/1772589320253.png)
 
-![alt text](images/1772588168871.png)
+![alt text](images/1772589339624.png)
+
+![alt text](images/1772589349824.png)
+
+
+
+### Conversion details
+
+![alt text](images/1772589645307.png)

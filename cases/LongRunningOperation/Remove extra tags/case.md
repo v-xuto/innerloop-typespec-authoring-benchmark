@@ -2,7 +2,7 @@
 
 ## prompt
 
-Use azure-typespec-author to identify the additional tags in newNormalizedSwagger.json compared with oldNormalizedSwagger.json, and remove the extra tags.
+Use azure-typespec-author to compare newNormalizedSwagger.json with oldNormalizedSwagger.json, identify any newly introduced tags, trace them back to the corresponding TypeSpec definitions, and remove them at the TypeSpec level.
 
 ## Description
 
