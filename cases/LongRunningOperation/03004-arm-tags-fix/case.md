@@ -5,7 +5,7 @@
 Use azure-typespec-author to compare newNormalizedSwagger.json with oldNormalizedSwagger.json, identify any newly introduced tags, trace them back to the corresponding TypeSpec definitions, and remove them at the TypeSpec level.
 
 
-![tags diff](tagsDiff.png)
+![tags diff](image.png)
 
 ### Input code
 [Code Files](Attach)

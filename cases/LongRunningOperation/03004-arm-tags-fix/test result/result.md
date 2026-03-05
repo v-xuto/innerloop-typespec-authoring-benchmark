@@ -6,8 +6,7 @@
 
 Split the original one Interface into two Interfaces in order to leverage the way tags added by the Interface.
 
-![Output](tagsFixResult.png)
-
+![Output](image.png)
 
 ### Result
-Failed to remove extra tags with ths most proper way.
+Failed to remove extra tags with the expected way described in case.md.
