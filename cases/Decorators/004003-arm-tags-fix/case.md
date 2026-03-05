@@ -1,9 +1,8 @@
-# CASE 03004-arm-tags-fix
+# CASE 004003-arm-tags-fix
 
 ## prompt
 
-Use azure-typespec-author to compare newNormalizedSwagger.json with oldNormalizedSwagger.json, identify any newly introduced tags, trace them back to the corresponding TypeSpec definitions, and remove them at the TypeSpec level.
-
+Compare newNormalizedSwagger.json with oldNormalizedSwagger.json, identify any newly introduced tags, trace them back to the corresponding TypeSpec definitions, and remove them at the TypeSpec level.
 
 ![tags diff](image.png)
 
