@@ -1,4 +1,4 @@
-# CASE Remove extra tags
+# CASE 03004-arm-tags-fix
 
 ## prompt
 
@@ -6,7 +6,7 @@ Use azure-typespec-author to compare newNormalizedSwagger.json with oldNormalize
 
 ## Description
 
-We want to  use azure-typespec-author to compare newNormalizedSwagger.json with oldNormalizedSwagger.json, identify any newly introduced tags, and remove the extra tags from the new swagger.
+We want to  use azure-typespec-author to compare `newNormalizedSwagger.json` with `oldNormalizedSwagger.json`, identify any newly introduced tags, and remove the extra tags from the new swagger.
 
 ![alt text](images/1772587819208.png)
 
@@ -16,6 +16,7 @@ We want to  use azure-typespec-author to compare newNormalizedSwagger.json with 
 ## Expected output 
 
 find the extra tags in the oldNormalizedSwagger.json and locate on the releated typesspec operation then fix the typespec code.
+
 Specific fix method woud be like as below:
 
 ``` ts
@@ -37,7 +38,7 @@ interface RouteFilters {
 
 ```
 
-That means:  
-1. `omitTags: true` would be added to the `@armResourceOperations(#{ omitTags: true })` to omit the tags added by the Interface automatically.
+Chanes:  
+1. `omitTags: true` would be introduced to the `@armResourceOperations(#{ omitTags: true })` to omit the tags added by the Interface automatically.
 
-2. Then add the actual tags on the opeartion like `@tag("RouteFilterRules")`
+2. Then add the actual tags on the specific opeartion like `@tag("RouteFilterRules")`
