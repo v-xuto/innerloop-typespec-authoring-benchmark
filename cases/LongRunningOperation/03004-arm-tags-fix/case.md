@@ -38,7 +38,7 @@ interface RouteFilters {
 
 ```
 
-Chanes:  
+Changes:  
 1. `omitTags: true` would be introduced to the `@armResourceOperations(#{ omitTags: true })` to omit the tags added by the Interface automatically.
 
 2. Then add the actual tags on the specific opeartion like `@tag("RouteFilterRules")`
