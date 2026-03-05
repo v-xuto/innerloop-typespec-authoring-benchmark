@@ -11,7 +11,3 @@ Split the original one Interface into two Interfaces in order to leverage the wa
 
 ### Result
 Failed to remove extra tags with ths most proper way.
-
-From the swagger view, the swagger compiled from typespec is acceptable. 
-
-But it is not the best practice to do this only for the tags fix consideration.
