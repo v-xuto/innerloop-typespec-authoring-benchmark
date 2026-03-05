@@ -17,7 +17,7 @@ We want to  use azure-typespec-author to compare `newNormalizedSwagger.json` wit
 
 find the extra tags in the oldNormalizedSwagger.json and locate on the releated typesspec operation then fix the typespec code.
 
-Specific fix method woud be like as below:
+Afer fix, codes woud be like as below:
 
 ``` ts
 @armResourceOperations(#{ allowStaticRoutes: true, omitTags: true })
