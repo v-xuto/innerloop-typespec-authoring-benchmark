@@ -4,9 +4,9 @@
 
 ### Output
 
-Split the original one Interface into two Interfaces in order to leverage the way tags added by the Interface.
+It did not output the expected changes as described in `case.md`, but add a new interface.
 
 ![Output](image.png)
 
 ### Result
-Failed to remove extra tags with the expected way described in case.md.
+Failed to remove extra tags with the expected way described in `case.md`.
