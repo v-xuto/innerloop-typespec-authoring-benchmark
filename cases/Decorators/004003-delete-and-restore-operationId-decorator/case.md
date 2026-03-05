@@ -2,11 +2,11 @@
 
 ## prompt
 
-1.use azure-typespec-author to Remove @operationId and #suppress "@azure-tools/typespec-azure-core/no-openapi" "FIXME: Update justification, follow aka.ms/tsp/conversion-fix for details" in yourlocalpath\tsp
+1.Remove @operationId and #suppress "@azure-tools/typespec-azure-core/no-openapi" "FIXME: Update justification, follow aka.ms/tsp/conversion-fix for details" in 004003-delete-and-restore-operationId-decorator\tsp
 
 Waiting for the first task to be successfully completed.
 
-2.use azure-typespec-author to restore those operationIds that do not contain underscores or begin with a lowercase letter should not have been cleared during the previous processing
+2.restore those operationIds that do not contain underscores or begin with a lowercase letter should not have been cleared during the previous processing
 
 ### Input code
 
@@ -115,7 +115,7 @@ interface VpnServerConfigurationPolicyGroups {
 
 ```
 
-Expected output code
+### Expected output code
 
 ```tsp
 
