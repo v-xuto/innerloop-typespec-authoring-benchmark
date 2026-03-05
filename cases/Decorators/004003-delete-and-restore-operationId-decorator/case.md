@@ -10,11 +10,7 @@ Waiting for the first task to be successfully completed.
 
 ### Input code
 
-004003-delete-and-restore-operationId-decorator\tsp
-
-Example tsp:
-
-VpnServerConfigurationPolicyGroup.tsp
+All related code is located in the tsp/ folder. The following is an example TypeSpec snippet from VpnServerConfigurationPolicyGroup.tsp.
 
 ```tsp
 import "@azure-tools/typespec-azure-core";
