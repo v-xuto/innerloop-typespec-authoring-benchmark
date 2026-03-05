@@ -6,7 +6,7 @@
 
 Split the original one Interface into two Interfaces in order to leverage the way tags added by the Interface.
 
-![Output](images/1772670725744.png)
+![Output](tagsFixResult.png)
 
 
 ### Result
